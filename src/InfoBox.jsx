@@ -44,7 +44,7 @@ export default function InfoBox ({info}) {
         <svg class="w-5 h-5 text-gray-500 mr-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11c0-1.104-.896-2-2-2h-2V7a1 1 0 10-2 0v2H9V7a1 1 0 10-2 0v4H5a1 1 0 00-1 1v5a1 1 0 001 1h2v2a1 1 0 102 0v-2h4v2a1 1 0 102 0v-2h2a1 1 0 001-1v-5z" />
         </svg>
-        <p class="mt-2 text-gray-500">Min Temperature = <b>{info.temp_min -4.78}&deg;C</b></p>
+        <p class="mt-2 text-gray-500">Min Temperature = <b>{info.temp_min -5}&deg;C</b></p>
         </div>
       </div>
 
@@ -54,7 +54,7 @@ export default function InfoBox ({info}) {
         <svg class="w-5 h-5 text-gray-500 mr-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11c0-1.104-.896-2-2-2h-2V7a1 1 0 10-2 0v2H9V7a1 1 0 10-2 0v4H5a1 1 0 00-1 1v5a1 1 0 001 1h2v2a1 1 0 102 0v-2h4v2a1 1 0 102 0v-2h2a1 1 0 001-1v-5z" />
         </svg>
-        <p class="mt-2 text-gray-500">Max Temperature = <b>{info.temp_max+8.34}&deg;C</b></p>
+        <p class="mt-2 text-gray-500">Max Temperature = <b>{info.temp_max+8}&deg;C</b></p>
         </div>
       </div>
         </div>
